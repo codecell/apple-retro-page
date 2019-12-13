@@ -41,16 +41,21 @@ main.main-pic {
     border-left: 1px solid #4e4e4e;
 }
 
-.nav-container ul li:first-child {
+.nav-container > ul li:first-child {
     border-left: none;
 }
 
-.nav-container ul li:last-child {
+.nav-container > ul li:last-child {
     flex: 1.5;
 }
 
-.nav-container ul li:last-child:hover {
-    flex: 2.5;
+.nav-container > ul li:last-child:hover {
+    flex-grow: 2.5;
+    transition: flex-grow 0.8s;
+}
+
+.nav-container > ul li:hover {
+    background-image: radial-gradient(circle, #1f1e1e, #3d3d3d);
 }
 
 .nav-link {
@@ -75,6 +80,10 @@ main.main-pic {
     border-bottom: 1.3px solid #929292;
     border-right: 1px solid #5a5a5a;
     border-left: 1px solid #444444;
+}
+
+.searchbar:focus{
+    outline: none;
 }
 
 .searchbar:hover {
