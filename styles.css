@@ -1,261 +1,250 @@
 /* <<<< BASIC SETTINGS >>>>> */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
-    overflow-x: hidden;;
+  overflow-x: hidden;
 }
 
 /* <<<< MAIN SECTION >>>>> */
 main.main-pic {
-    background: url("./assets/apple_hero.jpg") 50% 100% no-repeat;
-    background-size: cover;
-    height: 530px;
-    position: relative;
-    transform: translate(0, -18px);
-    margin-bottom: 2px;
+  background: url("./assets/apple_hero.jpg") 50% 100% no-repeat;
+  background-size: cover;
+  height: 530px;
+  position: relative;
+  transform: translate(0, -18px);
+  margin-bottom: 2px;
 }
 
 /*  navbar zone! */
 .nav-container {
-    position: absolute;
-    top: 6.5rem;
-    left: 17.5%;
-    height: 2.3em;
-    width: 65%;
-    border: 1px solid #4e4e4e;
-    border-radius: 6px;
-    background: linear-gradient(#707070 50%,#808080, #666,#5e5e5e 50%);
+  position: absolute;
+  top: 6.5rem;
+  left: 17.5%;
+  height: 2.3em;
+  width: 65%;
+  border: 1px solid #4e4e4e;
+  border-radius: 6px;
+  background: linear-gradient(#707070 50%, #808080, #666, #5e5e5e 50%);
 }
 
 .nav-container ul {
-    display: flex;
-    list-style: none;
-    width: 100%;
-    height: 100%;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  height: 100%;
 }
 
 .nav-container ul li {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    height: 100%;
-    border-left: 1px solid #4e4e4e;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  height: 100%;
+  border-left: 1px solid #4e4e4e;
 }
 
 .nav-container > ul li:first-child {
-    border-left: none;
+  border-left: none;
 }
 
 .nav-container > ul li:last-child {
-    flex: 1.5;
+  flex: 1.5;
 }
 
 .nav-container > ul li:hover {
-    background-image: radial-gradient(circle, #1f1e1e, #3d3d3d);
+  background-image: radial-gradient(circle, #1f1e1e, #3d3d3d);
 }
 
 .nav-link {
-    text-decoration: none;
-    color: #f4f4f4ff;
-    margin: 0 auto;
-    font-size: 13px;
+  text-decoration: none;
+  color: #f4f4f4ff;
+  margin: 0 auto;
+  font-size: 13px;
 }
 
 .apple-icon {
-    font-size: 20px !important;
+  font-size: 20px !important;
 }
 
 .searchbar {
-    background: url("./assets/search.svg") 4px 50% no-repeat;
-    background-size: 12%;
-    width: 80%;
-    height: 60%;
-    margin: 0 auto;
-    border-radius: 15px;
-    border-top: 1.3px solid #4e4e4e;
-    border-bottom: 1.3px solid #929292;
-    border-right: 1px solid #5a5a5a;
-    border-left: 1px solid #444444;
+  background: url("./assets/search.svg") 4px 50% no-repeat;
+  background-size: 12%;
+  width: 80%;
+  height: 60%;
+  margin: 0 auto;
+  border-radius: 15px;
+  border-top: 1.3px solid #4e4e4e;
+  border-bottom: 1.3px solid #929292;
+  border-right: 1px solid #5a5a5a;
+  border-left: 1px solid #444;
 }
 
-.searchbar:focus{
-    outline: none;
+.searchbar:focus {
+  outline: none;
 }
 
 /*  body Paragraphs */
 .main-body-texts {
-    position: absolute;
-    top: 11.1rem;
-    right: 20%;
-    text-align: center;
-}
-
-.main-body-texts > a {
-    text-decoration: none;
-    color: #fff;
+  position: absolute;
+  top: 11.1rem;
+  right: 20%;
+  text-align: center;
 }
 
 .main-body-texts > h1 {
-    font-size: 63px;
-    font-weight: 200;
+  font-size: 63px;
+  font-weight: 200;
 }
 
-.main-body-texts > h1 a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.smaller-headings {
-    line-height: 1.5;
-    font-size: 27px;
-    font-weight: 300;
-    width: 100%;
+footer a {
+  text-decoration: none;
+  color: rgb(16, 145, 196);
 }
 
 .smaller-headings > a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-body-texts > h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.smaller-headings {
+  line-height: 1.5;
+  font-size: 27px;
+  font-weight: 300;
+  width: 100%;
 }
 
 .smaller-headings:last-child {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .play-icon {
-    position: relative;
-    top: 5px;
-    width: 25px;
-    height: 25px;
+  position: relative;
+  top: 5px;
+  width: 25px;
+  height: 25px;
 }
 
 /* <<<< PRODUCTS SHOWCASE SECTION >>>>> */
 .products-showcase {
-    display: flex;
-    width: 100%;
-    height: 200px;
-    margin-top: -18px;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  margin-top: -18px;
 }
 
 .products-showcase > div {
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex: 1;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
 }
 
 .products-showcase-div-1 {
-    background: url("./assets/promo_iphone5s.jpg");
+  background: url("./assets/promo_iphone5s.jpg");
 }
 
 .products-showcase-div-2 {
-    background: url("./assets/promo_iphone5c.jpg");
-    border-left:  1px solid #fff;
+  background: url("./assets/promo_iphone5c.jpg");
+  border-left: 1px solid #fff;
 }
 
 .products-showcase-div-3 {
-    background: url("./assets/promo_30_years.jpg");
-    border-left:  1px solid #fff;
+  background: url("./assets/promo_30_years.jpg");
+  border-left: 1px solid #fff;
 }
 
 .products-showcase-div-4 {
-    background: url("./assets/promo_supplier_responsibility.jpg");
+  background: url("./assets/promo_supplier_responsibility.jpg");
 }
 
 /* <<<< FOOTER SECTION >>>>> */
 footer {
-    display: block;
-    width: 100%;
-    min-height: 40px;
-    margin: 0 15%;
-    font-size: 10px;
-    color: rgb(85, 85, 85);
-}
-footer a {
-    text-decoration: none;
-    color: rgb(16, 145, 196);
+  display: block;
+  width: 100%;
+  min-height: 40px;
+  margin: 0 15%;
+  font-size: 10px;
+  color: rgb(85, 85, 85);
 }
 
 .nav-container > ul li:last-child:hover {
-    flex-grow: 2.5;
-    transition: flex-grow 0.8s;
+  flex-grow: 2.5;
+  transition: flex-grow 0.8s;
 }
 
 .searchbar:hover {
-    background: #fff;
-    color: #5e5e5e;
-}
-
-.smaller-headings > a:hover {
-    cursor: pointer;
-}
-
-.smaller-headings:last-child:hover {
-    text-decoration: underline;
+  background: #fff;
+  color: #5e5e5e;
 }
 
 footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+.smaller-headings > a:hover {
+  cursor: pointer;
+}
+
+.smaller-headings:last-child:hover {
+  text-decoration: underline;
 }
 
 footer span {
-    margin: 3px;
+  margin: 3px;
 }
 
 .first-footer-line {
-    display: flex;
-    margin: 20px 0;
+  display: flex;
+  margin: 20px 0;
 }
 
 .first-footer-line p:first-child {
-    margin-top: 10px !important;
-    margin-right: 60px;
+  margin-top: 10px !important;
+  margin-right: 60px;
 }
 
-.second-footer-line{
-    margin-bottom: 20px;
+.second-footer-line {
+  margin-bottom: 20px;
 }
 
 /* <<<< MEDIA QUERIES >>>>> */
 @media all and (max-width: 700px) {
-    .nav-container {
-        top: 4.5rem;
-    }
+  .nav-container {
+    top: 4.5rem;
+  }
 
-    .main-body-texts {
-        top: 8rem;
-    }
+  .main-body-texts {
+    top: 8rem;
+  }
 
-    .main-body-texts > h1 {
-        font-size: 50px;
-    }
+  .main-body-texts > h1 {
+    font-size: 50px;
+  }
 
-    .main-body-texts > h3 {
-        font-size: 23px;
-    }
+  .main-body-texts > h3 {
+    font-size: 23px;
+  }
 
-    .products-showcase {
-        display: block;
-        width: 100%;
-    }
+  .products-showcase {
+    display: block;
+    width: 100%;
+  }
 
-    .products-showcase > div {
-        float: left;
-        width: 50%;
-    }
+  .products-showcase > div {
+    float: left;
+    width: 50%;
+  }
 
-    footer {
-        clear: both !important;
-    }
+  footer {
+    clear: both !important;
+  }
 }
-
-
-
-
-
-
