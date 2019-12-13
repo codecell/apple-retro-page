@@ -18,7 +18,7 @@
 - https://fontawesome.com/icons
 
 ## Steps For Installation
-- After cloning this repo, git clone [repo](https://github.com/codecell/utube-clone.git), cd apple-retro-page.
+- After cloning this repo, git clone [repo](https://github.com/codecell/apple-retro-page.git), cd apple-retro-page.
 - In your commandline [run npm install] to install the dependencies.
 - open the index.html file in your favourite browser, voila!!!
 
