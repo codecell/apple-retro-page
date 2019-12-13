@@ -8,6 +8,9 @@
 
 body {
   overflow-x: hidden;
+  max-width: 1400px;
+  min-width: 700px;
+  margin: 0 auto;
 }
 
 /* <<<< MAIN SECTION >>>>> */
@@ -91,7 +94,7 @@ main.main-pic {
 .main-body-texts {
   position: absolute;
   top: 11.1rem;
-  right: 20%;
+  width: 100%;
   text-align: center;
 }
 
@@ -146,6 +149,7 @@ footer a {
   background-size: cover;
   background-repeat: no-repeat;
   flex: 1;
+  flex-basis: min-content;
 }
 
 .products-showcase-div-1 {
