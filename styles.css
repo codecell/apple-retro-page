@@ -55,11 +55,6 @@ main.main-pic {
     flex: 1.5;
 }
 
-.nav-container > ul li:last-child:hover {
-    flex-grow: 2.5;
-    transition: flex-grow 0.8s;
-}
-
 .nav-container > ul li:hover {
     background-image: radial-gradient(circle, #1f1e1e, #3d3d3d);
 }
@@ -90,11 +85,6 @@ main.main-pic {
 
 .searchbar:focus{
     outline: none;
-}
-
-.searchbar:hover {
-    background: #fff;
-    color: #5e5e5e;
 }
 
 /*  body Paragraphs */
@@ -134,14 +124,6 @@ main.main-pic {
 
 .smaller-headings:last-child {
     margin-top: 25px;
-}
-
-.smaller-headings > a:hover {
-    cursor: pointer;
-}
-
-.smaller-headings:last-child:hover {
-    text-decoration: underline;
 }
 
 .play-icon {
@@ -197,6 +179,24 @@ footer {
 footer a {
     text-decoration: none;
     color: rgb(16, 145, 196);
+}
+
+.nav-container > ul li:last-child:hover {
+    flex-grow: 2.5;
+    transition: flex-grow 0.8s;
+}
+
+.searchbar:hover {
+    background: #fff;
+    color: #5e5e5e;
+}
+
+.smaller-headings > a:hover {
+    cursor: pointer;
+}
+
+.smaller-headings:last-child:hover {
+    text-decoration: underline;
 }
 
 footer a:hover {
