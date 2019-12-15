@@ -60,6 +60,11 @@ main.main-pic {
 
 .nav-container > ul li:hover {
   background-image: radial-gradient(circle, #1f1e1e, #3d3d3d);
+  cursor: pointer;
+}
+
+.nav-container > ul li:last-child:hover {
+  cursor: text !important;
 }
 
 .nav-link {
@@ -212,7 +217,7 @@ footer span {
 }
 
 .first-footer-line p:first-child {
-  margin-top: 10px !important;
+  margin-top: 8px !important;
   margin-right: 60px;
 }
 
