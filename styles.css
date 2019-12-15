@@ -63,10 +63,6 @@ main.main-pic {
   cursor: pointer;
 }
 
-.nav-container > ul li:last-child:hover {
-  cursor: text !important;
-}
-
 .nav-link {
   text-decoration: none;
   color: #f4f4f4ff;
@@ -186,6 +182,7 @@ footer {
 }
 
 .nav-container > ul li:last-child:hover {
+  cursor: text !important;
   flex-grow: 2.5;
   transition: flex-grow 0.8s;
 }
